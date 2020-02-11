@@ -1,0 +1,60 @@
+import scipy.constants as c
+import numpy as np
+from math import pi
+
+def angular_wave_func(m,l,theta,phi):
+    
+    if l == 0:
+        
+        result = np.sqrt(1/(4*pi))
+        
+    elif l == 1:
+        
+        if m == 0:
+            
+            
+        elif m == 1:
+            
+        
+        elif m == -1:
+                    
+     
+    elif l == 2:
+      
+        if m == 0:
+            
+            
+        elif m == 1:
+            
+        
+        elif m == -1:
+            
+        
+        elif m == 2:
+            
+            
+        elif m == -2:
+            
+          
+     elif l == 3:
+        
+        if m == 0:
+            
+            
+        elif m == 1:
+            
+        
+        elif m == -1:
+            
+        
+        elif m == 2:
+            
+            
+        elif m == -2:
+            
+            
+        elif m == 3:
+            
+        
+        elif m == -3:
+        
